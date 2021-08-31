@@ -1,10 +1,10 @@
 This is a study of the original [https://github.com/microsoft/rush-example](https://github.com/microsoft/rush-example).
 
-I modified the `tools/my-toolchain` such that typescript is no longer required to install in `apps/my-app`
+I modified `tools/my-toolchain` such that typescript is no longer required to install in `apps/my-app`
 
 I also install eslint in `tools/my-toolchain` (without the need to install it at `apps/my-app`; but this is just an experiment, not for real development us because eslint in IDE won't work unless you install eslint globally. 
 
-Also I have not figure out how to pass argument to eslint command (rushx lint) when executing it `apps/my-app`.
+Also I have not figured out how to pass argument to eslint command (rushx lint) when executing it `apps/my-app`.
 
 
 
