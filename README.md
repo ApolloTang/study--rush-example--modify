@@ -1,3 +1,15 @@
+This is a study of the original [https://github.com/microsoft/rush-example](https://github.com/microsoft/rush-example).
+
+I modified the `tools/my-toolchain` such that typescript is no longer required to install in `apps/my-app`
+
+I also install eslint in `tools/my-toolchain` (without the need to install it at `apps/my-app`; but this is just an experiment, not for real development us because eslint in IDE won't work unless you install eslint globally. 
+
+
+
+
+
+----- 
+
 # Example Rush Monorepo
 
 This template is part of the documentation of the [Rush](https://rushjs.io/) tool.
